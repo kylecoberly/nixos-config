@@ -121,7 +121,7 @@
     };
     kernel.sysctl = { "vm.swappiness" = 10;};
   };
-  powerManagement.cpuFreqGovernor = "performance"
+  powerManagement.cpuFreqGovernor = "performance";
 
   ## Networking
   networking.hostName = "nixos"; # Define your hostname.
